@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import "./Landing.css"
-import Todoimage from  "C:/Users/niran/development/Todo app project/Frontend/src/assets/Todoimage.jpeg"
+import Todoimage from  "../../src/assets/Todoimage.jpeg"
 
 
 const Landing = () => {
