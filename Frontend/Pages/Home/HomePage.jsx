@@ -1,6 +1,6 @@
 import React, { useEffect, useState,useCallback } from 'react'
 import Navbar from '../../component/Layout/navbar';
-import '../../src/app.css'
+import '../../src/App.css'
 import PopModel from '../../component/Layout/popModel';
 import Todoservices from '../../src/Services/Todoservices';
 import Card from '../../component/Card/card';
