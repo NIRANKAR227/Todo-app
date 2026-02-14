@@ -3,7 +3,7 @@ import Navbar from '../../component/Layout/navbar';
 import '../../src/App.css'
 import PopModel from '../../component/Layout/PopModel';
 import Todoservices from '../../src/Services/Todoservices';
-import Card from '../../component/Card/card';
+import Card from '../../component/Card/Card';
 
 
 const HomePage = () => {
