@@ -1,0 +1,38 @@
+.landingclass {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 1300px;
+  margin: 10px 30px 10px 10px;
+}
+
+.tagline1 {
+  font-size: 3rem;   /* BIG */
+  font-weight: 700;
+}
+
+.tagline2 {
+  font-size: 4rem;   /* VERY BIG */
+  color: #ff5722;
+  font-weight: 900;
+}
+
+.intro-text p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 15px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn.red { background: crimson; color: white; }
+.btn.blue { background: steelblue; color: white; }
