@@ -1,7 +1,7 @@
 import React, { useEffect, useState,useCallback } from 'react'
 import Navbar from '../../component/Layout/navbar';
 import '../../src/App.css'
-import PopModel from '../../component/Layout/popModel';
+import PopModel from '../../component/Layout/PopModel';
 import Todoservices from '../../src/Services/Todoservices';
 import Card from '../../component/Card/card';
 
