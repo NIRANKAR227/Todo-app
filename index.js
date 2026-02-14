@@ -17,7 +17,7 @@ ConnectDB();
 app.use(express.json());
 app.use(morgan("dev"));
 app.use(cors({
-  origin: "https://todo-app-8dl6.onrender.com",
+  origin: "https://todo-app-ljy5.vercel.app",
   credentials: true
 }));
 
