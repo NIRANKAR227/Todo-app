@@ -1,13 +1,22 @@
-import axios from 'axios'
+import axios from "axios";
 
-const registeruser=(data)=>{
-    return axios.post("/user/register",data);
-}
+const API = axios.create({
+  baseURL: import.meta.env.VITE_API_URL,
+});
 
-const loginuser=(data)=>{
-    return axios.post("/user/login",data);
-}
+// Register User
+const registeruser = (data) => {
+  return API.post("/user/register", data);
+};
 
-const AuthServices={registeruser,loginuser}
+// Login User
+const loginuser = (data) => {
+  return API.post("/user/login", data);
+};
 
-export default AuthServices
+const AuthServices = {
+  registeruser,
+  loginuser,
+};
+
+export default AuthServices;

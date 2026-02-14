@@ -17,7 +17,7 @@ ConnectDB();
 app.use(express.json());
 app.use(morgan("dev"));
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://todo-app-8dl6.onrender.com",
   credentials: true
 }));
 
